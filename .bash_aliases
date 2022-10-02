@@ -1,5 +1,5 @@
 #!/bin/bash
-# Author: igor.astakhov 
+# Author: igor.astakhov
 
 alias stopdo="systemctl stop openvpn@dpower"
 alias pmame="sshpass -e ssh root@pma.srv.hcvlny.cv.net"
