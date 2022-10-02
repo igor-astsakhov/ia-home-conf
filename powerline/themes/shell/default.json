@@ -32,7 +32,11 @@
             },
             {
                 "function": "powerline.segments.shell.cwd",
-                "priority": 10
+                "priority": 10,
+                "args": {
+                    "dir_shorten_len": 5,
+                    "shorten_home": true
+                }
             },
             {
                 "function": "powerline.segments.shell.jobnum",
